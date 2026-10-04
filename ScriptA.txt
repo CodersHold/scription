@@ -1,0 +1,9 @@
+Print "--- Launching Script A ---" Cut
+SaveSpaceFor BaseDamage is 50 Also SaveSpaceFor PotionActive is Yes Cut
+when PotionActive is Yes BaseDamage * 2 Cut
+Print "Double Damage Active!" Cut
+CountDown 3 Cut
+when Seconds stop BaseDamage / 2 Cut
+Print "Potion expired. Damage reset." Cut
+SendSignal to "ScriptB" Cut
+end

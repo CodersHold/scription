@@ -1,0 +1,4 @@
+when SignalReceived from "ScriptA" Cut
+Print "--- Script B Awakening ---" Cut
+Print "Signal caught successfully across files! Scription is linked!" Cut
+end

@@ -1,0 +1,67 @@
+================================================================================
+               SCRIPTION 4.0 FINAL COMPACT CROSS-OVER LIBRARY
+================================================================================
+[CAP: 40 KEYWORDS | CASE-INSENSITIVE | PUNCTUATION-FLEXIBLE | SANDBOX-SECURED]
+
+📦 SECTOR 1: DATA ALLOCATION & MEMORY
+--------------------------------------------------------------------------------
+* SaveSpaceFor   -> Meaning: Allocates empty box in RAM | Python: None | Lua: local | JS: let
+* is / =         -> Meaning: Links value to memory slot | Python: =    | Lua: =     | JS: =
+* Yes            -> Meaning: State switch turned ON     | Python: True | Lua: true  | JS: true
+* No             -> Meaning: State switch turned OFF    | Python: False| Lua: false | JS: false
+
+💬 SECTOR 2: MONITOR DISPLAY FEEDBACK
+--------------------------------------------------------------------------------
+* Print          -> Meaning: Displays text or values    | Python: print() | Lua: print() | JS: console.log()
+
+🧮 SECTOR 3: MATHEMATICS CORE ENGINE
+--------------------------------------------------------------------------------
+* + / Subtract   -> Meaning: Increases/decreases numeric values registers in RAM.
+* * / / / Divide -> Meaning: Multiplies/divides stored numbers inside the CPU math core.
+* Random         -> Meaning: Generates value between bounds | Python: random.randint | Lua: math.random
+
+⏱️ SECTOR 4: CHRONOLOGICAL TIMELINE ENGINE
+--------------------------------------------------------------------------------
+* RecordSeconds  -> Meaning: Starts CPU time tick log   | Python: time.perf_counter | Lua: os.clock
+* Seconds        -> Meaning: Variable holding live ticks| Python: seconds | Lua: seconds | JS: seconds
+* CountDown      -> Meaning: Ticks timer values backward | Python: for i in range: | Lua: for i=x,0,-1 do
+* CountUp        -> Meaning: Ticks timer values forward  | Python: while True:     | Lua: while true do
+* StopCount      -> Meaning: Freezes clock value at "0s" | Python: if x<=0: break  | Lua: if x<=0 then break
+* wait           -> Meaning: Active time-suffix timer   | Python: time.sleep(x)   | Lua: task.wait(x)
+
+🧠 SECTOR 5: LOGIC FLOW & CHAINING
+--------------------------------------------------------------------------------
+* If             -> Meaning: Evaluates logic parameter  | Python: if   | Lua: if      | JS: if
+* ifis / ifnot   -> Meaning: Checks alternative if path | Python: elif | Lua: elseif  | JS: else if
+* Otherwise      -> Meaning: Backup fallback path choice| Python: else:| Lua: else    | JS: else
+* Also / OrElse  -> Meaning: Multi-condition logical connectors | Python: and / or | Lua: and / or | JS: && / ||
+
+⏱️ SECTOR 6: TIMELINE EVENT WATCHERS
+--------------------------------------------------------------------------------
+* when           -> Meaning: Silent state change observer| Python: while not: pass | Lua: repeat until
+* stop           -> Meaning: Checkpoint freeze detector | Python: == "0s" | Lua: == 0   | JS: == 0
+
+📡 SECTOR 7: INTER-SCRIPT TRANSMISSION
+--------------------------------------------------------------------------------
+* SendSignal     -> Meaning: Dispatches cross-file message | Python: Queue | Lua: BindableEvent:Fire
+* ReceiveSignal  -> Meaning: Passive background script hook| Python: recv  | Lua: Event:Connect
+
+🛠️ SECTOR 8: SEGMENT BOUNDARIES
+--------------------------------------------------------------------------------
+* cList          -> Meaning: Runs through an item checklist| Python: for x in: | Lua: for k,v in pairs() do
+* group          -> Meaning: Bundles instruction macro | Python: def    | Lua: function | JS: function
+* require        -> Meaning: Imports external blueprints| Python: import | Lua: require  | JS: import
+* Cut            -> Meaning: Line block separator wall  | Python: \n / ; | Lua: \n       | JS: \n / ;
+* end            -> Meaning: Universal scope terminator | Python: Dedent | Lua: end      | JS: }
+
+🌲 SECTOR 9: THE FAMILY TREE HIERARCHY
+--------------------------------------------------------------------------------
+* Parent / Child -> Meaning: Master container folder layer / single element living inside container.
+* Relative       -> Meaning: Sibling folder elements sharing your exact parental layer level.
+* is Child of    -> Meaning: Maps structural parent link| Python: c.p=p | Lua: c.Parent=p | JS: p.appendChild
+* GetChildren    -> Meaning: Indexes folder item list   | Python: list  | Lua: GetChildren| JS: children
+* GetRelatives   -> Meaning: Indexes sibling node list  | Python: list  | Lua: TableFilter| JS: Filter
+* WaitForChildren-> Meaning: Pauses loop until folder loads component items completely.
+* WaitForParent  -> Meaning: Pauses loop until element drops into active folder structure.
+* WaitForRelative-> Meaning: Pauses loop until neighboring sibling asset renders on screen.
+================================================================================
